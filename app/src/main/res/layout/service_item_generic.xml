@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="?android:selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginEnd="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:firstBaselineToTopHeight="24dp"
+            android:text="Music101"
+            android:id="@+id/service_item_generic_service_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:firstBaselineToTopHeight="20dp"
+            android:text="Connecting"
+            android:id="@+id/service_item_generic_connection_state"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:firstBaselineToTopHeight="44dp"
+        android:text="SOURCE"
+        android:id="@+id/service_item_generic_service_type"/>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="my_app_primary_color">#07575b</color>
+    <color name="my_app_secondary_color">#c4dfe6</color>
+    <color name="my_app_background_color">#ffffff</color>
+    <color name="my_app_error_color">#b00020</color>
+
+    <color name="my_app_primary_variant_color">#003b46</color>
+    <color name="my_app_secondary_variant_color">#66a5ad</color>
+    <color name="my_app_surface_color">#ffffff</color>
+    <color name="my_app_color_on_primary">#ffffff</color>
+    <color name="my_app_color_on_secondary">#000000</color>
+    <color name="my_app_color_on_background">#000000</color>
+    <color name="my_app_color_on_error">#b00020</color>
+    <color name="my_app_color_on_surface">#000000</color>
+
+</resources>

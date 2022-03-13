@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_rail_configure"
+        android:enabled="true"
+        android:icon="@drawable/abc_vector_test"
+        android:title="Devices"
+        app:cnb_backgroundColor="@color/my_app_secondary_color"
+        app:cnb_iconColor="@color/my_app_color_on_secondary"
+        app:cnb_textColor="@color/my_app_color_on_secondary" />
+
+    <item
+        android:id="@+id/nav_rail_music"
+        android:enabled="true"
+        android:icon="@drawable/abc_vector_test"
+        android:title="Playback"
+        app:cnb_backgroundColor="@color/my_app_secondary_color"
+        app:cnb_iconColor="@color/my_app_color_on_secondary"
+        app:cnb_textColor="@color/my_app_color_on_secondary" />
+
+</menu>

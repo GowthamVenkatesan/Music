@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/configurationFragment">
+
+    <fragment
+        android:id="@+id/configurationFragment"
+        android:name="sutdios.gowtham.music.ui.ConfigurationFragment"
+        android:label="ConfigurationFragment" />
+
+    <fragment
+        android:id="@+id/musicBrowserFragment"
+        android:name="sutdios.gowtham.music.ui.MusicBrowserFragment"
+        android:label="MusicBrowserFragment" >
+        <action
+            android:id="@+id/action_musicBrowserFragment_to_groupedMusicView"
+            app:destination="@id/groupedMusicView"
+            app:popUpTo="@+id/musicBrowserFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/groupedMusicView"
+        android:name="sutdios.gowtham.music.ui.GroupedMusicView"
+        android:label="GroupedMusicView" >
+        <argument
+            android:name="GROUPING"
+            app:argType="string"/>
+        <argument
+            android:name="GROUPING_KEY"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+
+</navigation>

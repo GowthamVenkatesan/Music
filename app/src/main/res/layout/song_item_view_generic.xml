@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="64dp">
+
+    <!--
+        Track
+        Title
+        Album
+        Year
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="24dp"
+        android:text="1"
+        android:firstBaselineToTopHeight="44dp"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:id="@+id/song_item_generic_track" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginEnd="24dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:firstBaselineToTopHeight="24dp"
+            android:text="Song Title"
+            style="@style/TextAppearance.MaterialComponents.Body1"
+            android:maxLines="1"
+            android:id="@+id/song_item_generic_song_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:firstBaselineToTopHeight="20dp"
+            android:text="album"
+            style="@style/TextAppearance.MaterialComponents.Overline"
+            android:maxLines="1"
+            android:id="@+id/song_item_generic_song_album" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="2000"
+        style="@style/TextAppearance.MaterialComponents.Overline"
+        android:firstBaselineToTopHeight="44dp"
+        android:id="@+id/song_item_generic_song_year" />
+
+</LinearLayout>
